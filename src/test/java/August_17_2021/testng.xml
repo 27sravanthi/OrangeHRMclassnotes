@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+  <test thread-count="5" name="Test1">
+  <parameter name="Browser" value="Chrome"/>
+    <parameter name="NationalityText" value="Indian7676"/>
+    <classes>
+      <class name="August_17_2021.TestExample1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Test2">
+  <parameter name="Browser" value="FireFox"/>
+    <parameter name="NationalityText" value="Indian7677"/>
+    <classes>
+      <class name="August_17_2021.TestExample1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
